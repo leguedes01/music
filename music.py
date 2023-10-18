@@ -17,7 +17,7 @@ def get_lyrics():
         result_label.config(text='A letra não existe')
 
 
-def display_lyrics():
+def display_lyrics(lyrics):
     result_text.delete(1.0, 'end')
     result_text.insert(tk.END, lyrics)
 
